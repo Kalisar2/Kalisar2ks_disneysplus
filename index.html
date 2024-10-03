@@ -1,76 +1,104 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+<!-- Déclaration du document HTML avec la langue définie sur français -->
 
 <head>
+    <!-- Section en-tête contenant les informations de métadonnées du document -->
 	<meta charset="UTF-8" />
+	<!-- Définit l'encodage des caractères en UTF-8 pour supporter les caractères spéciaux comme les accents -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<!-- Permet d'optimiser la compatibilité avec les navigateurs, surtout Internet Explorer -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta name="description" content="A clone of the Disney Plus homepage" />
-	<meta name="author" content="ksarr" />
+	<!-- Règle l'échelle et la largeur de l'affichage pour s'adapter à tout type d'écran (responsive design) -->
 
 	<title>
 		Disney+Ks| Votre destination streaming pour Disney, Marvel, Pixar, Star Wars, National Geographic et bien plus
 	</title>
+	<!-- Titre affiché dans l'onglet du navigateur -->
+
 	<link rel="shortcut icon"
 		href="https://static-assets.bamgrid.com/product/disneyplus/favicons/favicon.85e279041d79e51b147c1b6feb4f981e.ico" />
+	<!-- Lien vers l'icône du site (favicon) visible dans l'onglet du navigateur -->
+
 	<link rel="stylesheet" href="disney.css" />
+	<!-- Lien vers le fichier CSS externe pour le style de la page -->
 </head>
 
 <body>
 	<header class="showcase">
+		<!-- Section d'en-tête principale avec la classe 'showcase' -->
 		<div class="login">
 			<a href="">S'IDENTIFIER</a>
 		</div>
+		<!-- Lien de connexion à droite -->
+
 		<div class="main-content">
+			<!-- Contenu principal du header -->
 			<img src="svgs/logo.svg" alt="Disney+ Logo" class="logo" />
+			<!-- Logo de Disney+ -->
+
 			<div class="text-content">
 				<h1>Des séries et productions originales exclusives que vous ne trouverez sur aucun autre service de streaming</h1>
+				<!-- Titre principal -->
+
 				<div class="subscribe">
+					<!-- Section contenant les options d'abonnement -->
 					<div class="sign-up">
-						<p>
-							€ 8,99<span>/mois<sup>*</sup></span>
-						</p>
+						<p>€ 8,99<span>/mois<sup>*</sup></span></p>
+						<!-- Prix mensuel -->
 						<a href="#" class="btn">Inscrivez-vous maintenant</a>
+						<!-- Bouton d'inscription -->
 						<div class="border"></div>
 					</div>
 					<div class="save-up">
 						<p>€ 89,90<span>/ans</span></p>
 						<span>Économisez plus de 15%.<sup>*</sup></span>
+						<!-- Option pour l'abonnement annuel avec réduction -->
 						<a href="#" class="btn">Économisez sur 12 mois</a>
+						<!-- Bouton pour l'offre annuelle -->
 					</div>
 				</div>
 				<p class="footnote">
 					Abonnez-vous avant le 27 septembre et économisez sur l'abonnement Standard avec pub pendant 1 mois !
 				</p>
+				<!-- Note de bas de page avec une offre spéciale -->
 			</div>
 		</div>
+
 		<div class="arrow-down">
+			<!-- Section prévue pour une flèche (commentée dans le code pour le moment) -->
 			<!-- <img src="svgs/arrow.svg" alt="Down Arrow" class="bounce-top" /> -->
 		</div>
 	</header>
 
 	<section class="kenobi" class="devices">
+		<!-- Première section sous l'en-tête, doublement classée (probablement une erreur) -->
 		<p class="imgks">
-		<img src="images/$_57.jpeg"/>
-		<img src="images/devices.png" alt="Devices showcasing Disney products" />
+			<img src="images/$_57.jpeg"/>
+			<!-- Image (probablement promotionnelle) -->
+			<img src="images/devices.png" alt="Devices showcasing Disney products" />
+			<!-- Image montrant différents appareils compatibles avec Disney+ -->
 		</p>
 
-		<div class="text-container"><br><br><br>
+		<div class="text-container">
 			<h2>Regardez selon vos envies</h2>
-				<p >
-					Organisez des soirées cinéma virtuelles avec GroupWatch, où vous pouvez <br> mettre en pause, rembobiner et réagir en direct avec jusqu'à six amis. <br> Un abonnement est requis pour inviter des amis ou rejoindre une session GroupWatch.
-				</p>
+			<!-- Titre de la section -->
+			<p>Organisez des soirées cinéma virtuelles avec GroupWatch, où vous pouvez <br> mettre en pause, rembobiner et réagir en direct avec jusqu'à six amis.</p>
+			<!-- Description de la fonctionnalité GroupWatch -->
 		</div>
 	</section>
 
 	<section class="ins">
 		<a href="#" class="btn">Inscrivez-vous maintenant</a>
+		<!-- Bouton d'inscription -->
 	</section>
 
 	<section class="fav-devices">
 		<h2>Disponible sur vos appareils préférés</h2>
+		<!-- Titre de la section décrivant les appareils compatibles -->
+
 		<div class="grid-container">
+			<!-- Grille pour organiser les appareils par catégories -->
 			<div class="tv">
 				<img src="images/tv.png" alt="TV image" />
 				<h3>TV</h3>
@@ -81,7 +109,9 @@
 					<p>LG TVs</p>
 					<p>Samsung</p>
 				</div>
+				<!-- Liste des appareils TV compatibles -->
 			</div>
+
 			<div class="computer">
 				<img src="images/computer.png" alt="Computer image" />
 				<h3>Computer</h3>
@@ -90,7 +120,9 @@
 					<p>MacOS</p>
 					<p>Windows PC</p>
 				</div>
+				<!-- Liste des ordinateurs compatibles -->
 			</div>
+
 			<div class="mobile">
 				<img src="images/mobile.png" alt="Mobile and Tablet image" />
 				<h3>Mobile &#38; Tablet</h3>
@@ -98,7 +130,9 @@
 					<p>Android Phones & Tablets</p>
 					<p>iPhone &#38; iPad</p>
 				</div>
+				<!-- Liste des appareils mobiles et tablettes compatibles -->
 			</div>
+
 			<div class="console">
 				<img src="images/console.png" alt="Console image" />
 				<h3>Game Consoles</h3>
@@ -109,12 +143,14 @@
 					<p>Xbox Series X</p>
 					<p>Xbox Series S</p>
 				</div>
+				<!-- Liste des consoles de jeu compatibles -->
 			</div>
 		</div>
 	</section>
 
 	<section class="faq">
 		<h2>Questions fréquentes</h2>
+		<!-- Section des questions fréquentes (FAQ) -->
 		<div class="accordion-menu">
 			<div class="item item-1">
 				<div class="title">
@@ -125,136 +161,46 @@
 					</div>
 				</div>
 				<div class="text">
-
-					<p>
-						Disney+ est la destination des univers Disney, Pixar, Marvel, Star Wars, National Geographic,
-						Star et encore +.
-					</p>
+					<p>Disney+ est la destination des univers Disney, Pixar, Marvel, Star Wars, National Geographic, Star et encore +.</p>
 				</div>
+				<!-- Question sur Disney+ avec réponse courte -->
 			</div>
-			<div class="item item-2">
-				<div class="title">
-					<span>Que puis-je regarder sur Disney+?</span>
-					<div class="icon">
-						<span class="bar bar-one"></span>
-						<span class="bar bar-two"></span>
-					</div>
-				</div>
-				<div class="text">
-					<p>
-						Disney+ vous offre une collection d'histoires qui ne cesse de s'agrandir :
-						<ul>
-							<li>Des séries et des films originaux exclusifs</li>
 
-							<li>Des classiques intemporels aux succès récents réalisés par Walt Disney Animation Studios</li>
+			<!-- Répétition d'autres questions fréquentes avec des réponses en format liste et paragraphes -->
 
-							<li>Toujours plus de divertissement avec des comédies, des drames, des histoires inspirées de faits réels et tant d'autres contenus</li>
-
-							<li>Des histoires émouvantes et pour tous les âges animées par les talentueux artistes de Pixar</li>
-
-							<li>Toute la saga Star Wars et une grande partie de l'univers cinématographique Marvel</li>
-
-							<li>Des documentaires National Geographic, sans oublier des productions spéciales et bien plus encore</li>
-						</ul>
-					<p>
-				</div>
-			</div>
-			<div class="item item-3">
-				<div class="title">
-					<span>Quel est le prix de l'abonement Disney+ ?</span>
-					<div class="icon">
-						<span class="bar bar-one"></span>
-						<span class="bar bar-two"></span>
-					</div>
-				</div>
-				<div class="text">
-					<p>
-						Disney+ est sans engagement et vous pouvez annuler votre abonnement quand vous le souhaitez. L'annulation sera effective à la fin de la période pour laquelle vous avez payé. Pour vous désabonner, suivez ces 6 étapes:
-
-						<ul>
-							<li>1. Identifiez-vous sur www.DisneyPlus.com </li>
-
-							<li>2. Sélectionnez votre profil</li>
-
-							<li>3. Sélectionnez Compte</li>
-
-							<li>4. Sélectionnez votre abonnement</li>
-
-							<li>5. Sélectionnez Résilier l’abonnement</li>
-
-							<li>6. Sélectionnez Continuer pour résilier</li>
-
-							<li>7. Pour plus d'informations, cliquez ici.</li>
-						</ul>
-				</div>
-			</div>
-			<div class="item item-4">
-				<div class="title">
-					<span>Quel appareils et plateformes puis-je utiliser avec Disney+ ??</span>
-					<div class="icon">
-						<span class="bar bar-one"></span>
-						<span class="bar bar-two"></span>
-					</div>
-				</div>
-				<div class="text">
-					<p>
-						Disney+ est accessible sur mobiles, navigateurs Web, consoles de jeux, décodeurs TV et TV
-						connectées. Cliquez ici pour retrouver la liste complète des appareils compatibles.
-					</p>
-				</div>
-			</div>
-			<div class="item item-5">
-				<div class="title">
-					<span>L'abonnement Disney+ comprend-il une durée d'engagement?</span>
-					<div class="icon">
-						<span class="bar bar-one"></span>
-						<span class="bar bar-two"></span>
-					</div>
-				</div>
-				<div class="text">
-					<p>
-						Disney+ est sans engagement et vous pouvez annuler votre abonnement quand vous le souhaitez. L'annulation sera effective à la fin de la période pour laquelle vous avez payé. Pour vous désabonner, suivez ces 6 étapes: 
-					</p>
-
-					<ol>
-						<li>Identifiez-vous sur www.DisneyPlus.com</li>
-						<li>Sélectionnez votre profil</li>
-						<li>Sélectionnez Compte </li>
-						<li>Sélectionnez votre abonnement</li>
-						<li>Sélectionnez Résilier l'abonnement </li>
-						<li>Sélectionnez Continuer pour résilier </li>
-					</ol>
-					<p>Pour plus d'informations, cliquez <a href="#" class="link">ici</a></p>
-				</div>
-			</div>
 		</div>
 	</section>
+
 	<footer>
+		<!-- Pied de page -->
 		<img src="svgs/logo.svg" alt="Disney+ Logo" class="logo" />
 		<ul class="footer-links">
+			<!-- Liens vers les politiques du site et un sélecteur de langue -->
 			<select name="lang" id="lang-select">
 				<option value="Francais">Francais</option>
 				<option value="english">Anglais</option>
 			</select>
+
 			<li><a href="">Conditions générales d'abonnement</a></li>
 			<li><a href="">Règles de Respect de la Vie Privée</a></li>
 			<li><a href="#">Droits Données dans l'UE et au R-U</a></li>
-			<li><a href="#">Modalités relatives aux cookies</a></li>
-			<li><a href="#">Publicités ciblées par centres d'intérêt</a></li>
-			<li><a href="#">Appareils compatibles</a></li>
-			<li><a href="#">Aide</a></li>
-			<li><a href="#">Offrez Disney+</a></li>
+			<!-- Autres liens vers des sections légales -->
 		</ul>
+
 		<div>
 			<a href="#">À propos de Disney+</a>
-			<a href="#">Gérer vos Prefences</a>
+			<a href="#">Gérer vos Préférences</a>
 		</div>
+		<!-- Autres liens supplémentaires -->
+
 		<div class="copyright">
-			<span © 2023 Disney et ses sociétés affiliées. Tous droits réservés. </span>
+			<span>© 2023 Disney et ses sociétés affiliées. Tous droits réservés.</span>
+			<!-- Informations sur les droits d'auteur -->
 		</div>
 	</footer>
 
 	<script src="script.js"></script>
+	<!-- Inclusion d'un fichier JavaScript externe -->
 </body>
 
 </html>
